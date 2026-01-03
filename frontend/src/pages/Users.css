@@ -1,0 +1,15 @@
+.users-page {
+  padding: 40px 0;
+}
+
+.user-actions {
+  display: flex;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .user-actions {
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,79 @@
+.project-details-page {
+  padding: 40px 0;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding: 25px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project-header h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.project-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.task-description-small {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.status-select {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.badge-low {
+  background-color: #28a745;
+  color: white;
+}
+
+.badge-medium {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.badge-high {
+  background-color: #dc3545;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .project-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .table {
+    font-size: 12px;
+  }
+  
+  .task-actions {
+    flex-direction: column;
+  }
+}
+
